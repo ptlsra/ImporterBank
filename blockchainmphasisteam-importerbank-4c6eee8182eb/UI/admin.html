@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin -Importer Bank </title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/MainLogin.css">
+    
+  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+   
+</head>
+
+<body id="main_body">
+
+ <div id="headerDiv"></div>
+  
+    <div class="imagebanner">
+  <img src="assets/img/lpv.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 id="custInfo">Welcome To Importer Bank.</h1>
+    <p>Banking Solutions implemented on blockchain.</p>
+  </div>
+</div>
+   
+ 
+   
+     <div class="container-fluid" id="main_container" >
+        <div class="row">
+        
+        
+         
+            
+   <div class="col-lg-4 col-md-12" id="apply_loan_column" style="margin-top:40px;">
+        <img src="assets/img/banking.jpg" class="img-circle" alt="Cinque Terre" width="100" height="86"> 
+            <h4 style="color:#120d7c;margin-top:30px;font-weight: bold;">Offers </h4>
+            
+            <p style="color:black;font-size:14px;">View all Offers</p>
+                   <br>
+                   <button class="button " id="quotes">View Offers</button>
+            
+         
+              
+                </div>
+            
+             <div class="col-lg-4 col-md-12" id="apply_loan_column" style="margin-top:40px;">
+        <img src="assets/img/ins4.jpg" class="img-circle" alt="Cinque Terre" width="100" height="86"> 
+            <h4 style="color:#120d7c;margin-top:30px;font-weight: bold;">View Assets </h4>
+            
+            <p style="color:black;font-size:14px;">View List Of Assets.</p>
+                   <br>
+                   <button class="button " id="calc">View List</button>
+            
+                
+      
+              
+              
+                </div>
+            
+            
+                
+                 <div class="col-lg-4 col-md-12" id="apply_loan_column3" style="margin-top:40px;">
+        <img src="assets/img/tx.jpg" class="img-circle" alt="Cinque Terre" width="100" height="86"> 
+            <h4 style="color:#120d7c;margin-top:30px;font-weight: bold;">View Transactions </h4>
+            
+            <p style="color:black;font-size:14px;">View All Transactions .</p>
+                   <br>
+                   <button class="button " id="calc3">View List</button>
+            </div>
+           
+               
+    </div>
+    </div>
+     
+    <div id="commonFooter"></div>
+   
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/commonFooter.js"></script>
+     <script src="assets/js/commonHeader2.js"></script>
+</body>
+
+  <script>
+  
+  $("#quotes").click(function(){
+	  window.location.href="offer.html";
+	}); 
+  $("#calc").click(function(){
+	  window.location.href="assets.html";
+	}); 
+  $("#calc3").click(function(){
+	  window.location.href="allTx.html";
+	}); 
+  </script>
+
+
+
+
+
+
+</html>
